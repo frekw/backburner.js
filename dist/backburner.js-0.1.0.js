@@ -263,7 +263,7 @@ define("backburner",
         debouncees = [],
         timers = [],
         autorun, laterTimer, laterTimerExpiresAt,
-        global = this;
+        global = window;
 
     function Backburner(queueNames, options) {
       this.queueNames = queueNames;
